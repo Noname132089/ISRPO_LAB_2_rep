@@ -27,3 +27,13 @@
 Содержит функции для вычисления параметров треугольника
 - **Площадь**: $S = \frac{a \cdot h}{2}$
 - **Периметр**: $P = a \cdot b \cdot c$
+
+
+| Хэш коммита | Комментарий                                                                   |
+| ----------- | ----------------------------------------------------------------------------- |
+| e15d5b8     | (HEAD -> docs_558202) Added triangle description and replaced '\*' на '\cdot' |
+| 0b1e2c5     | Aded rectangle and square description                                         |
+| f054115     | Added general description and circle description                              |
+| 120d534     | Add files                                                                     |
+| d078c8d     | (origin/main, origin/HEAD, main) L-03: Docs added                             |
+| 8ba9aeb     | L-03: Circle and square added                                                 |

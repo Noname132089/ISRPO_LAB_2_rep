@@ -31,6 +31,7 @@
 
 | Hash    | Commit                                                 |
 | ------- | ------------------------------------------------------ |
+| 6d023bf | (HEAD -> docs_558202) Added examples of calls          |
 | f24cb20 | Added hash table                                       |
 | e15d5b8 | Added triangle description and replaced '*' на '\cdot' |
 | 0b1e2c5 | Aded rectangle and square description                  |

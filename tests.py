@@ -48,6 +48,10 @@ class CircleInvalidInputTestCase(unittest.TestCase):
         with self.assertRaises(TypeError):
             circle.area("3")
 
+    def test_perimeter_string(self):
+        with self.assertRaises(TypeError):
+            circle.perimeter("3")
+
 
 class RectangleTestCase(unittest.TestCase):
 
@@ -97,6 +101,9 @@ class RectangleInvalidInputTestCase(unittest.TestCase):
         with self.assertRaises(TypeError):
             rectangle.perimeter("a", "b")
 
+    def test_area_string_second_arg(self):
+        with self.assertRaises(TypeError):
+            rectangle.area(2, "a")
 
 class SquareTestCase(unittest.TestCase):
 
@@ -143,6 +150,10 @@ class SquareInvalidInputTestCase(unittest.TestCase):
         with self.assertRaises(TypeError):
             square.perimeter("ab")
 
+    def test_area_numeric_string(self):
+        with self.assertRaises(TypeError):
+            square.area("5")
+
 
 class TriangleTestCase(unittest.TestCase):
 
@@ -188,3 +199,7 @@ class TriangleInvalidInputTestCase(unittest.TestCase):
     def test_area_string(self):
         with self.assertRaises(TypeError):
             triangle.area("a", 4)
+
+    def test_perimeter_string(self):
+        with self.assertRaises(TypeError):
+            triangle.perimeter("a", 4, 5)
